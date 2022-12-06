@@ -7,7 +7,6 @@ import org.jetbrains.annotations.NotNull;
 import java.io.IOException;
 
 import io.reactivex.rxjava3.core.Single;
-import io.reactivex.rxjava3.functions.Cancellable;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;

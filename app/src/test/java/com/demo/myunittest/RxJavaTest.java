@@ -48,4 +48,11 @@ public class RxJavaTest {
         testScheduler.advanceTimeBy(20,TimeUnit.SECONDS);
         testObserver.assertResult(1L,2L,3L,4L,5L);
     }
+
+    @Test
+    public void testJust() {
+        TestObserver<String> testObserver = Single.just( "just" ).test();
+        testObserver.assertComplete();
+        testObserver.assertValue("just");
+    }
 }

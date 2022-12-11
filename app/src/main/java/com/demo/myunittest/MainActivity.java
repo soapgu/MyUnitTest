@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.tv_message = findViewById(R.id.tv_message);
-        findViewById(R.id.button_test).setOnClickListener( v -> this.tv_message.setText( singletonClass.echo() ) );
+        findViewById(R.id.button_hilt).setOnClickListener( v -> this.tv_message.setText( singletonClass.echo() ) );
+        findViewById(R.id.button_test).setOnClickListener( v -> this.requestUuid());
     }
 
     public void requestUuid() {

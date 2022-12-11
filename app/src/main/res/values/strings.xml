@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyUnitTest</string>
+    <string name="create_uuid">Create UUid</string>
+    <string name="hilt_test">Hilt Test</string>
 </resources>
